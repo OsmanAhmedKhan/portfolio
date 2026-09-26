@@ -14,7 +14,14 @@ interface DynamicResumeData {
   keywords: string;
 }
 
+declare global {
+  interface Window {
+    gtag?: (...args: unknown[]) => void;
+  }
+}
+
 const seoData: DynamicResumeData = rawSeoData;
+const GA_MEASUREMENT_ID = 'G-HPC5D1RQGT';
 const BANNER_IMAGE_URL =
   'https://raw.githubusercontent.com/OsmanAhmedKhan/OsmanAhmedKhan/refs/heads/main/Banner.jpg';
 
@@ -59,6 +66,15 @@ export function SEOManager() {
     };
 
     document.title = activeMeta.title;
+
+    // Send SPA route transition to Google Analytics 4
+    if (typeof window.gtag === 'function') {
+      window.gtag('config', GA_MEASUREMENT_ID, {
+        page_path: pathname,
+        page_title: activeMeta.title,
+        page_location: canonicalUrl,
+      });
+    }
 
     const upsertMeta = (attrName: 'name' | 'property', attrValue: string, content: string) => {
       if (!content) return;
