@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Software Engineer",
+    "headline": "Architecting scalable systems and production-grade applications.",
+    "subheadline": "Specializing in frontend architecture, cloud infrastructure, and enterprise design systems. Built with discipline, performance, and long-term maintainability in mind.",
+    "primaryAction": "View Projects",
+    "secondaryAction": "Read Engineering Notes"
+  },
+  "philosophy": {
+    "title": "Engineering Philosophy",
+    "description": "I believe software should be intentional. Every dependency must justify its existence. Code should be written for the engineer who has to maintain it three years from now.",
+    "corePrinciples": [
+      "Composition over inheritance.",
+      "Strict type safety.",
+      "Zero unnecessary abstractions."
+    ]
+  },
+  "capabilities": {
+    "title": "Core Capabilities",
+    "items": [
+      "React & TypeScript",
+      "Frontend Architecture",
+      "Cloud Infrastructure",
+      "Performance Optimization",
+      "API Design",
+      "Design Systems"
+    ]
+  }
+}

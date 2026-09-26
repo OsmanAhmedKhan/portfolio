@@ -1,0 +1,52 @@
+[
+  {
+    "category": "Frontend Architecture",
+    "description": "Building scalable, type-safe, and highly performant client-side applications.",
+    "items": [
+      {
+        "name": "React & Next.js",
+        "context": "Architecting component libraries, managing complex state, and optimizing rendering pipelines."
+      },
+      {
+        "name": "TypeScript",
+        "context": "Enforcing end-to-end type safety, utilizing advanced generics, and preventing runtime regressions."
+      },
+      {
+        "name": "Tailwind CSS",
+        "context": "Implementing design systems and responsive layouts with zero CSS-in-JS runtime overhead."
+      }
+    ]
+  },
+  {
+    "category": "Cloud & Infrastructure",
+    "description": "Deploying distributed systems and serverless architectures.",
+    "items": [
+      {
+        "name": "Cloudflare Ecosystem",
+        "context": "Deploying edge computing solutions using Workers, Pages, and KV data stores."
+      },
+      {
+        "name": "AWS (Core Services)",
+        "context": "Provisioning S3, EC2, and Lambda environments with infrastructure-as-code principles."
+      },
+      {
+        "name": "Docker & CI/CD",
+        "context": "Containerizing applications and automating quality gates via GitHub Actions."
+      }
+    ]
+  },
+  {
+    "category": "Backend & Systems",
+    "description": "Designing secure APIs and managing data persistence.",
+    "items": [
+      {
+        "name": "Node.js & Express",
+        "context": "Building RESTful microservices and asynchronous event-driven architectures."
+      },
+      {
+        "name": "PostgreSQL",
+        "context": "Designing relational schemas, indexing strategies, and writing complex analytical queries."
+      }
+    ]
+  }
+]

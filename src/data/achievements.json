@@ -1,0 +1,26 @@
+[
+  {
+    "id": "aws-solutions-architect",
+    "title": "AWS Certified Solutions Architect – Professional",
+    "issuer": "Amazon Web Services",
+    "date": "2025",
+    "description": "Advanced certification validating the ability to design distributed systems and deploy scalable, high-availability, and fault-tolerant applications on AWS.",
+    "category": "Certification"
+  },
+  {
+    "id": "open-source-contributor",
+    "title": "Core Contributor",
+    "issuer": "React Open Source Ecosystem",
+    "date": "2024",
+    "description": "Merged multiple Pull Requests addressing performance bottlenecks in concurrent rendering and hydration mismatch warnings.",
+    "category": "Open Source"
+  },
+  {
+    "id": "hackathon-winner",
+    "title": "First Place - Global FinTech Hackathon",
+    "issuer": "Stripe & Vercel",
+    "date": "2023",
+    "description": "Architected a real-time cross-border payment gateway prototype utilizing WebSockets and edge compute.",
+    "category": "Award"
+  }
+]

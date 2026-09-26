@@ -1,0 +1,37 @@
+{
+  "resilient-ui-components": {
+    "title": "Designing Resilient UI Components",
+    "date": "Sep 02, 2026",
+    "readTime": "6 min read",
+    "tags": ["Architecture", "React", "Design Systems"],
+    "content": [
+      { "type": "paragraph", "text": "Building UI components is easy. Building resilient UI components that scale across 50 engineering teams without breaking is hard. In enterprise environments, the cost of a bad component API is exponential." },
+      { "type": "heading", "text": "The Problem with Prop Drilling" },
+      { "type": "paragraph", "text": "When components accept too many props to handle edge cases, they become fragile and impossible to maintain. This is often a symptom of trying to build a 'God Component'." },
+      { "type": "heading", "text": "The Solution: Composition" },
+      { "type": "paragraph", "text": "By utilizing React's children prop and Radix UI's Slot pattern, we invert control. The parent dictates the layout, while the child dictates the semantic HTML. This results in zero prop drilling and infinite flexibility." }
+    ]
+  },
+  "edge-caching-strategies": {
+    "title": "Edge Caching Strategies for SPAs",
+    "date": "Aug 14, 2026",
+    "readTime": "8 min read",
+    "tags": ["Cloudflare", "Performance", "Infrastructure"],
+    "content": [
+      { "type": "paragraph", "text": "Traditional CDNs cache static assets perfectly, but fail when dealing with dynamic API responses required by modern Single Page Applications (SPAs)." },
+      { "type": "heading", "text": "Stale-While-Revalidate (SWR)" },
+      { "type": "paragraph", "text": "By implementing the SWR pattern at the edge using Cloudflare Workers, we can serve stale data from the cache immediately (sub-50ms) while asynchronously fetching fresh data from the origin server." }
+    ]
+  },
+  "type-safe-routing": {
+    "title": "End-to-End Type Safety in React",
+    "date": "Jul 28, 2026",
+    "readTime": "5 min read",
+    "tags": ["TypeScript", "Best Practices"],
+    "content": [
+      { "type": "paragraph", "text": "TypeScript is often used purely for basic variable typing. However, its true power lies in strictly typing the boundaries of your application—specifically, the routing layer and API responses." },
+      { "type": "heading", "text": "Eliminating Magic Strings" },
+      { "type": "paragraph", "text": "By utilizing template literal types and discriminated unions, we can guarantee at compile-time that every link in our application points to a valid route, eliminating 404s caused by typos." }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Engineering Profile",
+  "intro": "I engineer systems with a focus on long-term maintainability, predictable performance, and developer experience. Code is read far more often than it is written.",
+  "sections": [
+    {
+      "title": "Core Philosophy",
+      "items": [
+        {
+          "heading": "Composition over Inheritance",
+          "description": "Building small, isolated, and highly reusable primitives prevents architectural lock-in and reduces regression risks."
+        },
+        {
+          "heading": "Strict Type Safety",
+          "description": "TypeScript is not optional. End-to-end type safety acts as living documentation and catches logic errors at compile time."
+        },
+        {
+          "heading": "Zero Unjustified Dependencies",
+          "description": "Every third-party package is a liability. I strictly audit dependencies for bundle size, security, and maintenance status before introduction."
+        }
+      ]
+    },
+    {
+      "title": "Development Workflow",
+      "items": [
+        {
+          "heading": "Atomic Commits & PRs",
+          "description": "Pull requests should do one thing. This makes code reviews effective, rollbacks trivial, and git history readable."
+        },
+        {
+          "heading": "Automated Quality Gates",
+          "description": "CI/CD pipelines must enforce linting, formatting, type-checking, and passing test suites before any merge is allowed."
+        }
+      ]
+    }
+  ]
+}
