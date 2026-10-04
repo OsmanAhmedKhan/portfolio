@@ -68,13 +68,17 @@ export function ResumePage() {
                   <Phone size={14} className="text-[#111110] shrink-0" />
                   <span>+91-7036134293</span>
                 </a>
-                <a href="https://www.linkedin.com/in/osman-ahmedkhan" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-[#111110] transition-colors">
+                <a href="https://linkedin.com/in/osman-ahmedkhan" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-[#111110] transition-colors">
                   <Globe size={14} className="text-[#111110] shrink-0" />
                   <span>linkedin.com/in/osman-ahmedkhan</span>
                 </a>
                 <a href="https://github.com/OsmanAhmedKhan" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-[#111110] transition-colors">
                   <Globe size={14} className="text-[#111110] shrink-0" />
                   <span>github.com/OsmanAhmedKhan</span>
+                </a>
+                <a href="https://osmankhan.pages.dev" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1.5 hover:text-[#111110] transition-colors">
+                  <Globe size={14} className="text-[#111110] shrink-0" />
+                  <span>osmankhan.pages.dev</span>
                 </a>
               </div>
             </header>
